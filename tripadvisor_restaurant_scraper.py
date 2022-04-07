@@ -30,7 +30,7 @@ driver.get(url)
 
 #define xpath for "Accept cookie" button and the filter button ("Brunch" in original script)
 xpath_cookie_button = "/html/body/div[10]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[1]/button"
-xpath_filter_button = "/html/body/div[4]/div[3]/div[3]/div[2]/div[2]/div[3]/div[1]/div[1]/div[2]/div/div[4]/div[2]/div[2]/div/label"
+xpath_filter_button = "/html/body/div[4]/div[3]/div[3]/div[2]/div[2]/div[3]/div[1]/div[1]/div[2]/div/div[4]/div[2]/div[2]/div/label/div/span/span"
 
 #wait for the "Accept cookie" button to be clickable and click on it
 btn_cookies = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, xpath_cookie_button)))
