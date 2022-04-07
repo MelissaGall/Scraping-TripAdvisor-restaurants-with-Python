@@ -38,5 +38,5 @@ This script is only a simple exercise for educational purposes. The author canno
 ## Programming language
 Python
 
-## Libraries
+## Librairies
 Selenium, BeautifulSoup, requests, pandas
