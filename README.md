@@ -29,7 +29,7 @@ At this time, if user tries to scrap "brunch" restaurants on a city without any 
 ### Get more than one page
 At this time, only the page 1 is scraped (30 restaurants). I have to make the script scrap more pages. Maybe the number of pages to scrap could by defined by the user ?
 
-### Debug if user enter "Tourism" url.
+### Debug if user enter "Tourism" url
 It is common that user, by mistake, enter the "Tourism" url instead of "Restaurant" url. If so, it would be nice if the script could navigate to "Restaurants" alone instead of returning empty lists.
 
 ## Disclaimer
